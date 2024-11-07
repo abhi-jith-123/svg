@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        body{
+            background-color: cadetblue;
+        }
+    </style>
+    <nav>
+        <nav style="font-size: large;">
+            <a href="index.html" style="color:chartreuse;">Back to home</a>
+        </nav>
+    </nav>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <h1 style="color: blueviolet;">Login Form</h1>
+            <div>
+                <label for="">E-mail id</label>
+                <input type="email" name="email" id="email" placeholder="enter your email" required>
+            </div>
+            <div>
+                <label for="">Password</label>
+                <input type="password" name="number" id="pass" placeholder="enter your password">
+            </div>
+            <button onclick="fnct()"   style="background-color:crimson ;">Submit</button>
+            
+        </form>
+    </div>
+    <script>
+        function fnct(){
+            alert("successfully loged in")
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        body{
+            background-color: rgb(103, 121, 55);
+        }
+    </style>
+    <nav>
+        <nav style="font-size: large;">
+            <a href="index.html" style="color:rgb(228, 122, 15);">Back to home</a>
+        </nav>
+    </nav>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <h1 style="color: rgb(59, 170, 240);">Sign up</h1>
+            <div>
+                <label for="">First Name</label>
+                <input type="text" name="name" id="frst name" required placeholder="enter your first name">
+            </div>
+            <div>
+                <label for="">Last Name</label>
+                <input type="text" name="name" id="last name" required placeholder="enter your Last name">
+            </div>
+            <div>
+                <label for="">E-mail</label>
+                <input type="email" name="email" id="e-mail" required placeholder="abc@gmail.com">
+            </div>
+            <div>
+                <label for="">Password</label>
+                <input type="password" name="pass" id="pass" required placeholder="enter your password">
+            </div>
+            <div>
+                <label for="">Confirm-Password</label>
+                <input type="password" name="pass" id="pass" required placeholder="enter your password">
+            </div>
+            <button onclick="ok()" style="background-color:crimson ;">Submit</button>
+            
+        </form>
+        <script>
+            function ok(){
+                alert("successfully sign up")
+            }
+        </script>
+    </div>
+</body>
+</html>
